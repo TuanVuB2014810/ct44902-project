@@ -1,15 +1,25 @@
 {
-  "name": "backend",
+  "name": "demo",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server.js"
   },
-  "author": "Tran Tuan Vu B2014810",
+  "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.1.1",
     "cors": "^2.8.5",
-    "express": "^4.19.2"
+    "encodings": "^1.0.0",
+    "express": "^4.18.2",
+    "express-session": "^1.18.0",
+    "mongodb": "^6.4.0",
+    "mongoose": "^8.2.1",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
   }
 }
